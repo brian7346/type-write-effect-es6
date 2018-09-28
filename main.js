@@ -1,8 +1,3 @@
-//Constructor function - функция, вызванная с ключевым словом new возращает новый объект
-// Конструкторы не отличаются от обычных функций абсолютно ничем
-// Любая фунция в js  потенциально являются конструктором
-// Любую фунцию можно вызывать с ключевым словом new
-//ES6 class
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
