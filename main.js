@@ -18,10 +18,10 @@ class TypeWriter {
     //Check if deleting
     if (this.isDeleting) {
       //Remove char
-      this.txt = fulltxt.substring(0, this.txt.length - 1); // ?????
+      this.txt = fulltxt.substring(0, this.txt.length - 1);
     } else {
       //Add char
-      this.txt = fulltxt.substring(0, this.txt.length + 1); // ??????
+      this.txt = fulltxt.substring(0, this.txt.length + 1);
     }
 
     //Insert txt into element
